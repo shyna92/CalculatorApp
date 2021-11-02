@@ -4,6 +4,7 @@ import add, { multi,sub,divi } from './cal';
 
 function App() {
   return (<>
+  <h1>calculatorapp</h1>
   <ul>
     <li>{add(10,20)}</li>
     <li>{sub(10,20)}</li>
